@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="matrix__container">
+      <aside class="matrix__sidebar">
+        <div class="matrix__sidebar-logo">
+          <a href="#"><img src="assets/xolog.png" alt="logo" /></a>
+        </div>
+        <ul class="matrix__sidebar-list">
+          <li>
+            <span class="matrix__sidebar-item"></span>
+            <a href="#"><img src="assets/graph.svg" alt="graph" /></a>
+          </li>
+          <li>
+            <span
+              class="matrix__sidebar-item matrix__sidebar-item--active"
+            ></span>
+            <a href="#"
+              ><img src="assets/ion_document.svg" alt="ion_document"
+            /></a>
+          </li>
+          <li>
+            <span class="matrix__sidebar-item"></span>
+            <a href="#"><img src="assets/document.svg" alt="document" /></a>
+          </li>
+          <li>
+            <span class="matrix__sidebar-item"></span>
+            <a href="#"><img src="assets/calculator.svg" alt="calculator" /></a>
+          </li>
+          <li>
+            <span class="matrix__sidebar-item"></span>
+            <a href="#"><img src="assets/settings.svg" alt="settings" /></a>
+          </li>
+          <li>
+            <span class="matrix__sidebar-item"></span>
+            <a href="#"><img src="assets/frame.svg" alt="frame" /></a>
+          </li>
+        </ul>
+        <div class="matrix__sidebar-footer">
+          <div class="matrix__sidebar-footer-icons">
+            <img src="assets/ship.svg" alt="ship" />
+          </div>
+          <div class="matrix__sidebar-footer-user">
+            <img src="assets/user.jpeg" alt="user" />
+          </div>
+        </div>
+      </aside>
+      <section class="matrix__content">
+        <ul class="matrix__content-breadcrumb">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Модуль предварительных расчетов</a></li>
+          <li><a href="#">Проект №1</a></li>
+          <li><a href="#">Внесение предварительных расчетов</a></li>
+          <li>Матрица допускаемых значений</li>
+        </ul>
+        <button class="matrix__content-back-btn">
+          <img src="assets/left-arrow.svg" alt="left-arrow" />
+          <span>Вернуться к выбору модуля</span>
+        </button>
+        <div class="matrix__content-head">
+          <div class="matrix__content-head-titles">
+            <h1>Внесение предварительных расчетов</h1>
+            <h3>Матрица допускаемых значений</h3>
+          </div>
+          <div class="matrix__content-head-btns">
+            <button class="matrix__content-btn excel-btn">
+              Импорт из Excel
+            </button>
+            <button class="matrix__content-btn save-btn">
+              Сохранить и продолжить проект
+            </button>
+          </div>
+        </div>
+        <div class="matrix__content-descr">
+          <ul class="matrix__content-descr-breadcrumb">
+            <li>Палана</li>
+            <li>Сухогруз</li>
+            <li>Загрузка 100% *</li>
+          </ul>
+          <button class="matrix__content-descr-edit">
+            <img src="assets/pencil-big.svg" alt="pencil" />
+          </button>
+        </div>
+        <div class="matrix__content-choice">
+          <form class="matrix__content-choice-form">
+            <input type="text" placeholder="Название" name="name" />
+            <select>
+              <option value="1">Тип запаса</option>
+            </select>
+            <select>
+              <option value="2">Вид запаса</option>
+            </select>
+            <button type="submit" class="matrix__content-choice-btn find-btn">
+              Найти
+            </button>
+            <button class="matrix__content-choice-btn cancel-btn">
+              Сбросить
+            </button>
+          </form>
+          <div class="matrix__content-choice-btns">
+            <button class="matrix__content-choice-btn left-btn">
+              <img src="assets/left.svg" alt="left" />
+            </button>
+            <button class="matrix__content-choice-btn right-btn">
+              <img src="assets/right.svg" alt="right" />
+            </button>
+          </div>
+        </div>
+        <div class="matrix__content-body">
+          <div class="matrix__content-table">
+              <table>
+                <thead>
+                  <tr>
+                    <td><span>Водоизмещение (Δ), т</span><span>Координата ЦТ (Xg), м</span></td>
+                    <td>900.00</td>
+                    <td>1000.00</td>
+                    <td>1100.00</td>
+                    <td>1200.00</td>
+                    <td>1300.00</td>
+                    <td>1400.00</td>
+                    <td>1500.00</td>
+                    <td>1600.00</td>
+                    <td>1700.00</td>
+                    <td>1800.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td>Действия</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>-5.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-4.5</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-4.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-3.5</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-3.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-2.5</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-2.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-1.5</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-1.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>-1.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                  <tr>
+                    <td>0.0</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                    <td width="120px" style="text-align: center;">...</td>
+                    <td><span>&#128065</span><a href="*"><img src="assets/pencil.svg" alt=""/></a><img src='assets/cross.svg' alt=''/></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="matrix__content-table-footnote">
+                <span>
+                  * Элементом таблицы на пересечении «Координата ЦТ, м.» /
+                  «Водоизмещение, т» является</span
+                >
+                <a href="#">«Допустимая аппликата ЦТ (Zg<sub>доп</sub>), м»</a>
+              </p>
+              <button class="matrix__content-table-add-string-btn">
+                + Добавить строку
+              </button>
+          </div>
+          <button class="matrix__content-body-btn">
+            <span>+ Добавить</span>
+            <span>cтолбец</span>
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
